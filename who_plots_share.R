@@ -154,7 +154,7 @@ for (j in 1:length(scenario.name)){
 # who.plot <- function(datain, variable, legend = F, viridis = F){
 #   # function that plots the results of WHO-MR runs for all scenarios and saves files individually
 #   # creates separate plots for deaths, cases, dalys
-#   # goup interaction doesn't work below in aes_string()  - not sure why
+#   # !! group interaction doesn't work below in aes_string()  - not sure why
 #   require(ggplot2)
 #   require(rgdal)
 #   require(scales)
